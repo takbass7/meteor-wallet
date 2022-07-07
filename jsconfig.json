@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/local_collection_driver.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/collection.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/connection_options.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/doc_fetcher.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/mongo_driver.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/mongo_utils.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/observe_multiplex.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/oplog_observe_driver.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/oplog_tailing.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/oplog_v2_converter.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/polling_observe_driver.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/mongo/1.15.0/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/ecmascript/0.16.2/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/hot-module-replacement/0.5.1/web.browser/hot-api.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/hot-module-replacement/0.5.1/web.browser/client.js",
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/hot-module-replacement/0.5.1/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/Users/kittichartseneewongnaayudaya/.meteor/packages/react-meteor-data/2.5.1/web.browser/index.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
